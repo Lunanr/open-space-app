@@ -1,8 +1,9 @@
-name: Continous Integration
+name: Continuous Integration
 
 on:
   pull_request:
-    branches: -master
+    branches:
+      - master
 
 jobs:
   automation-test-job:
